@@ -1,0 +1,7 @@
+What is the difference between final, finally, and finalize?
+
+Answer: final is attached to a static variable to indicate that the variable is a constant,
+that cannot be changed. finally is the block of code that gets executed after and try-catch code block
+to ensure that code gets executed regardless of exception caught and thrown within the catch.
+finalize method is depreciated and is utilized to perform cleanups and disposed of unwanted system 
+resources.

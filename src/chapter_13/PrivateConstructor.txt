@@ -1,0 +1,9 @@
+Private Constructor: In terms of inheritance, what is the effect of keeping a constructor private?
+
+Answer: Keeping the constructor private only allows access to the constructor through other private
+methods. The use of the private constructor can only be access through a method or the child's
+constructor given that within a child's constructor it calls the super classes constructor in order
+to create and object with related variables. Such as a Student class extends Name. When calling 
+the Student constructor you may be inputing data into name(firstName, lastName) that will get passed
+to the Name constructor in the name class only accessed by the Student constructor through 
+inheritance.

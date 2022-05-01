@@ -1,0 +1,5 @@
+Return from Finally: In Java, does the finally block get executed if we insert a return statement
+inside the try block of a try-catch-finally?
+
+Answer: The finally block will always occur after the try catch sequence. This occurs regardless of
+the return statement. This will execute also whether an exeception is thrown or caught.

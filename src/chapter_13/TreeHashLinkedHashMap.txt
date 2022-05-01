@@ -1,0 +1,23 @@
+TreeMap, HashMap, LinkedHashMap: Explain the differences between TreeMap, HashMap, and
+LinkedHashMap. Provide an example of when each one would be best.
+
+Answer: 
+
+A TreeMap's underlying data structure is a red and black tree.
+It does not retain its natural order because it is sorted through its keys or a comparator.
+It's time complexity for basic operations is o(logn).
+Allows for null values, not null keys.
+It is good for operations in which the keys of data must be sorted with not much necessity for fast
+search and basic operations.
+
+A HashMap's underlying data structure is a hash table.
+It does not retain the order of data that is inserted into it.
+It's time complexity for basic operations is o(1).
+It is great for data that needs to be accessed quickly and add quickly with its o(1) insertion, deletion,
+and search. 
+
+A LinkedHashMap's underlying data structure is a linked list.
+It retains the order of insertion
+It's time complexity for basic operations is o(1).
+It is great for data that needs to be accessed quickly and add quickly with its o(1) insertion, deletion,
+and search as well as retain insertion order.
